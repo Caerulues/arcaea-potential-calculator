@@ -1,0 +1,793 @@
+{
+  "source": "Arcaea Data local AFF files",
+  "algorithm": "https://github.com/Lolitania/ArcaeaChartNoteCounterLibrary",
+  "counted": 1246,
+  "existingMatches": 1156,
+  "csvMatchedCharts": 438,
+  "added": [
+    {
+      "songId": "deinosphainein",
+      "difficulty": 0,
+      "note": 1008,
+      "previous": -1,
+      "file": "Documents/dl/deinosphainein_0",
+      "sha256": "1d6dec502b2de19e93878dd8cd210c367517219b6298389ac800a6cb59ca5f66"
+    },
+    {
+      "songId": "deinosphainein",
+      "difficulty": 1,
+      "note": 1178,
+      "previous": -1,
+      "file": "Documents/dl/deinosphainein_1",
+      "sha256": "c11212f7ec25586fc352f1e5f2ec34df14c57c2449ce48ee81751e83441cc8cd"
+    },
+    {
+      "songId": "deinosphainein",
+      "difficulty": 2,
+      "note": 1888,
+      "previous": -1,
+      "file": "Documents/dl/deinosphainein_2",
+      "sha256": "098af68f542b8ef9950e8f2db750d9c010ae3885e5965e662ca371f8a818e44a"
+    },
+    {
+      "songId": "deinosphainein",
+      "difficulty": 3,
+      "note": 2228,
+      "previous": -1,
+      "file": "Documents/dl/deinosphainein_3",
+      "sha256": "7769e044fc9b07482ecec9acf967f2365ef1ee0a6662edc393493795872d26ca"
+    },
+    {
+      "songId": "cataclysmcry",
+      "difficulty": 0,
+      "note": 920,
+      "previous": -1,
+      "file": "Documents/dl/cataclysmcry_0",
+      "sha256": "67336bb693af7c1003146daf929395071c681f80f3e36654d8c06559ef42f0a3"
+    },
+    {
+      "songId": "cataclysmcry",
+      "difficulty": 1,
+      "note": 1137,
+      "previous": -1,
+      "file": "Documents/dl/cataclysmcry_1",
+      "sha256": "5c5a4db95041229cf93de4659ef7228c9a793039c686b5c46cb0bfe960d5cc45"
+    },
+    {
+      "songId": "cataclysmcry",
+      "difficulty": 2,
+      "note": 1614,
+      "previous": -1,
+      "file": "Documents/dl/cataclysmcry_2",
+      "sha256": "e37ccb20b90f0ccceb5cd930974f4ac8a4f4587e3c080ec4e917502a877ddb49"
+    },
+    {
+      "songId": "cataclysmcry",
+      "difficulty": 3,
+      "note": 2119,
+      "previous": -1,
+      "file": "Documents/dl/cataclysmcry_3",
+      "sha256": "b6b0b679a8b8ea5aa392274f8da2ea7aa99df7426230499107c5e5e37cdfda16"
+    },
+    {
+      "songId": "rivenpilgrim",
+      "difficulty": 0,
+      "note": 889,
+      "previous": -1,
+      "file": "Documents/dl/rivenpilgrim_0",
+      "sha256": "b012aca2305b30b755cbf16d9e578b86e0783786ccbb8b31bec57260dbe54ed2"
+    },
+    {
+      "songId": "rivenpilgrim",
+      "difficulty": 1,
+      "note": 1052,
+      "previous": -1,
+      "file": "Documents/dl/rivenpilgrim_1",
+      "sha256": "0f6031db8687ba83f29e392f53093edb448af3634919723114cc200471bf3d9a"
+    },
+    {
+      "songId": "rivenpilgrim",
+      "difficulty": 2,
+      "note": 1503,
+      "previous": -1,
+      "file": "Documents/dl/rivenpilgrim_2",
+      "sha256": "b1bc090498598967095faaa54bf47d91d4c9c6fb4798a7a3182597ac14bc8b7e"
+    },
+    {
+      "songId": "rivenpilgrim",
+      "difficulty": 3,
+      "note": 2032,
+      "previous": -1,
+      "file": "Documents/dl/rivenpilgrim_3",
+      "sha256": "73b7ca430ccf5fab8f0e62c5ed5fe3df1754a436f2c643eb6add585ac03b7c23"
+    },
+    {
+      "songId": "dreadarea",
+      "difficulty": 0,
+      "note": 858,
+      "previous": -1,
+      "file": "Documents/dl/dreadarea_0",
+      "sha256": "1edeb342256dc5aa8e555fe2b4fe20b8c0b4659c3202c8801a1db46c7f13c0f4"
+    },
+    {
+      "songId": "dreadarea",
+      "difficulty": 1,
+      "note": 1002,
+      "previous": -1,
+      "file": "Documents/dl/dreadarea_1",
+      "sha256": "40436167f7e292d13774aa0cc3f1f105676098afa8a714443e38493938591c95"
+    },
+    {
+      "songId": "dreadarea",
+      "difficulty": 2,
+      "note": 1405,
+      "previous": -1,
+      "file": "Documents/dl/dreadarea_2",
+      "sha256": "aa31cc75b96c9e3dc805bd4fb86d5917bb13a288db4f1cd02394f54718f06c82"
+    },
+    {
+      "songId": "dreadarea",
+      "difficulty": 3,
+      "note": 1663,
+      "previous": -1,
+      "file": "Documents/dl/dreadarea_3",
+      "sha256": "2af7b226d8e979c0d39180a3df83d25101d51aead131e40919292ed3eb0d7010"
+    },
+    {
+      "songId": "diein",
+      "difficulty": 0,
+      "note": 806,
+      "previous": -1,
+      "file": "Documents/dl/diein_0",
+      "sha256": "53877b60a579c6221030c7e568bbfcc5bf5bfd61a31440236934e7b4b8b5ca02"
+    },
+    {
+      "songId": "diein",
+      "difficulty": 1,
+      "note": 957,
+      "previous": -1,
+      "file": "Documents/dl/diein_1",
+      "sha256": "69b9695bd06fd603357ec222e07e70edc1c8ad70347a463253f5e7c2b60804b2"
+    },
+    {
+      "songId": "diein",
+      "difficulty": 2,
+      "note": 1160,
+      "previous": -1,
+      "file": "Documents/dl/diein_2",
+      "sha256": "c5a561766939357ea5a4e4b2818bbe426274de6b74ead0641f6c17f75346e25b"
+    },
+    {
+      "songId": "diein",
+      "difficulty": 4,
+      "note": 1474,
+      "previous": -1,
+      "file": "Documents/dl/diein_4",
+      "sha256": "76bfeca479bb5d664d17445a7e4ff16bfc40ac1f7c8e11a37afe630f4a845f7c"
+    },
+    {
+      "songId": "acidgod",
+      "difficulty": 0,
+      "note": 554,
+      "previous": -1,
+      "file": "Documents/dl/acidgod_0",
+      "sha256": "1163ada5bdbe2d96bbc4d6ddb017e91db3ac802170b2447dfea23c709df4b160"
+    },
+    {
+      "songId": "acidgod",
+      "difficulty": 1,
+      "note": 748,
+      "previous": -1,
+      "file": "Documents/dl/acidgod_1",
+      "sha256": "6c76113e2ab8ac210dde56d135ba07d922ff8ef4226aab14455062712864c75e"
+    },
+    {
+      "songId": "acidgod",
+      "difficulty": 2,
+      "note": 1060,
+      "previous": -1,
+      "file": "Documents/dl/acidgod_2",
+      "sha256": "00c4d31fbe50358fea477ffcf05983e7def52123408675df6f8edba4e9854f68"
+    },
+    {
+      "songId": "acidgod",
+      "difficulty": 4,
+      "note": 1379,
+      "previous": -1,
+      "file": "Documents/dl/acidgod_4",
+      "sha256": "343363985c6fac0e807693c9461dcb2c1c82469a64d0cbd977609e0c27254dba"
+    },
+    {
+      "songId": "un",
+      "difficulty": 0,
+      "note": 853,
+      "previous": -1,
+      "file": "Documents/dl/un_0",
+      "sha256": "5ee94d36cf1135c9b8d5e87afe606e11ff0853bd8a99d0cc7812e105415667a6"
+    },
+    {
+      "songId": "un",
+      "difficulty": 1,
+      "note": 1040,
+      "previous": -1,
+      "file": "Documents/dl/un_1",
+      "sha256": "8d436d9ec11229063d589d5b2d2fb1adbba12ef134ffc39a2cf6aaf6d46f95f4"
+    },
+    {
+      "songId": "un",
+      "difficulty": 2,
+      "note": 1502,
+      "previous": -1,
+      "file": "Documents/dl/un_2",
+      "sha256": "d56356bb71eeefa76a9d01f6255c40c9b389aa12218b44f7a1a1da77eb654453"
+    },
+    {
+      "songId": "un",
+      "difficulty": 4,
+      "note": 1823,
+      "previous": -1,
+      "file": "Documents/dl/un_4",
+      "sha256": "da04a835eb2d5fca6d6c259824a58d1a227fe57aaa58d062c85ada35d90d12f0"
+    },
+    {
+      "songId": "chronologia",
+      "difficulty": 0,
+      "note": 790,
+      "previous": -1,
+      "file": "Documents/dl/chronologia_0",
+      "sha256": "bdb0205024f518cc2dd24f5818d8e77283d7be681b040bd5f924a0db55f17e4c"
+    },
+    {
+      "songId": "chronologia",
+      "difficulty": 1,
+      "note": 1051,
+      "previous": -1,
+      "file": "Documents/dl/chronologia_1",
+      "sha256": "165bbc8131d9c0281c666e3b138ad3ca73cba263c3d2f9364a37b39bb413569d"
+    },
+    {
+      "songId": "chronologia",
+      "difficulty": 2,
+      "note": 1230,
+      "previous": -1,
+      "file": "Documents/dl/chronologia_2",
+      "sha256": "f939d09869f9bfc20bbba72b1cf637013043d9e36dcb18f341a409b9b32dfaa5"
+    },
+    {
+      "songId": "chronologia",
+      "difficulty": 4,
+      "note": 1468,
+      "previous": -1,
+      "file": "Documents/dl/chronologia_4",
+      "sha256": "5126af9b9cb881f0c283419c99fcb7802e94c0547efb1d3e459d86e53f88ccf4"
+    },
+    {
+      "songId": "synthesis",
+      "difficulty": 0,
+      "note": 764,
+      "previous": -1,
+      "file": "Documents/dl/synthesis_0",
+      "sha256": "13de7a336e6d36da8d62e801cfb5aaeb7b8358c1ef1b207afb7355702e39ace5"
+    },
+    {
+      "songId": "synthesis",
+      "difficulty": 1,
+      "note": 1109,
+      "previous": -1,
+      "file": "Documents/dl/synthesis_1",
+      "sha256": "32fa737d6e39908bd3b7a4eed27d7373f822fbabed8d7e6fa20826cdba9a2f7e"
+    },
+    {
+      "songId": "synthesis",
+      "difficulty": 2,
+      "note": 1192,
+      "previous": -1,
+      "file": "Documents/dl/synthesis_2",
+      "sha256": "e65fe8b3f81f72087c02606e98a6b00e24105dd8800f4aba20fceb52b51706f5"
+    },
+    {
+      "songId": "synthesis",
+      "difficulty": 4,
+      "note": 1469,
+      "previous": -1,
+      "file": "Documents/dl/synthesis_4",
+      "sha256": "8710d0b9ae161b5b9ec9e0f023cbee0b0ca3079e93994a09e19aa31ee4402712"
+    },
+    {
+      "songId": "telepathy",
+      "difficulty": 0,
+      "note": 484,
+      "previous": -1,
+      "file": "Documents/dl/telepathy_0",
+      "sha256": "3d25da9b211bf8b94c0ad408800b11ba5cd7e58128408365f387f84cc98ef630"
+    },
+    {
+      "songId": "telepathy",
+      "difficulty": 1,
+      "note": 766,
+      "previous": -1,
+      "file": "Documents/dl/telepathy_1",
+      "sha256": "ffbc37a421d29b3f6cd65581d1580436fa23d99346be84f3d9869f64e4eae439"
+    },
+    {
+      "songId": "telepathy",
+      "difficulty": 2,
+      "note": 880,
+      "previous": -1,
+      "file": "Documents/dl/telepathy_2",
+      "sha256": "ac0682d7351d0743cddecd4a85964c313a254bcfce7609e91ef712e6e292cc67"
+    },
+    {
+      "songId": "telepathy",
+      "difficulty": 4,
+      "note": 1131,
+      "previous": -1,
+      "file": "Documents/dl/telepathy_4",
+      "sha256": "bcc08363ac52915803a4b9990f577032a8c452011ff832f6c571ab1795ca6c8e"
+    },
+    {
+      "songId": "asgore",
+      "difficulty": 0,
+      "note": 797,
+      "previous": -1,
+      "file": "Documents/dl/asgore_0",
+      "sha256": "a05beee647b2b5ee50c84c9255c5915dd113b98858fdb1f1b0ae3cab9753b3ee"
+    },
+    {
+      "songId": "asgore",
+      "difficulty": 1,
+      "note": 1044,
+      "previous": -1,
+      "file": "Documents/dl/asgore_1",
+      "sha256": "bd8898f256cca49239e7c0340356966b90fc736ba1b435622773dcc856dfef84"
+    },
+    {
+      "songId": "asgore",
+      "difficulty": 2,
+      "note": 1006,
+      "previous": -1,
+      "file": "Documents/dl/asgore_2",
+      "sha256": "f322da0ac67d0a3efc6060ec30e44dcea4a952a51c854d31ae9b0abf4bef752b"
+    },
+    {
+      "songId": "asgore",
+      "difficulty": 4,
+      "note": 1255,
+      "previous": -1,
+      "file": "Documents/dl/asgore_4",
+      "sha256": "e83be909d92f64a64688c582ca7753f9bb96b7f1e2813fa71329f8404be817f8"
+    },
+    {
+      "songId": "override",
+      "difficulty": 0,
+      "note": 583,
+      "previous": -1,
+      "file": "Documents/dl/override_0",
+      "sha256": "d10addc8d7169881dee26d7f25d8d267952c7668950ec962d25cf77ca432b6dc"
+    },
+    {
+      "songId": "override",
+      "difficulty": 1,
+      "note": 723,
+      "previous": -1,
+      "file": "Documents/dl/override_1",
+      "sha256": "25fedd5fa9844381fcc488fae4db02aed60c3c1cad67a9a7523ccfeac8557711"
+    },
+    {
+      "songId": "override",
+      "difficulty": 2,
+      "note": 917,
+      "previous": -1,
+      "file": "Documents/dl/override_2",
+      "sha256": "89839823d8b8518327f24145c0cad619bb465340618c29544c1023a904c1d4ed"
+    },
+    {
+      "songId": "override",
+      "difficulty": 4,
+      "note": 1083,
+      "previous": -1,
+      "file": "Documents/dl/override_4",
+      "sha256": "6e986357a2dc3b5841e9b28f14c104d129df7b80304a8757691dcddfd664d42d"
+    },
+    {
+      "songId": "balor",
+      "difficulty": 0,
+      "note": 677,
+      "previous": -1,
+      "file": "Documents/dl/balor_0",
+      "sha256": "243e9f41e3d6669ca94bade74a0d90c11856d308af423a50e426db115a6b844a"
+    },
+    {
+      "songId": "balor",
+      "difficulty": 1,
+      "note": 673,
+      "previous": -1,
+      "file": "Documents/dl/balor_1",
+      "sha256": "e771ac8a0b0a1e4c4cb5e46288229fc52d6e099acccd38c03a90fef61c62d2bd"
+    },
+    {
+      "songId": "balor",
+      "difficulty": 2,
+      "note": 900,
+      "previous": -1,
+      "file": "Documents/dl/balor_2",
+      "sha256": "14ab6e156f5d361ae3a71535079a4af4a47b03296c36ee59384537e86d1e73fc"
+    },
+    {
+      "songId": "balor",
+      "difficulty": 4,
+      "note": 1138,
+      "previous": -1,
+      "file": "Documents/dl/balor_4",
+      "sha256": "0a2bc66b2262e9a96173c2c6799216be1b0ff7d71d401a9b21429dbe23234ca4"
+    },
+    {
+      "songId": "spearofjustice",
+      "difficulty": 0,
+      "note": 308,
+      "previous": -1,
+      "file": "Documents/dl/spearofjustice_0",
+      "sha256": "7ed492f35948d0de0f583cbafc0eb47e12bcc218d52497d0a7d829af05202161"
+    },
+    {
+      "songId": "spearofjustice",
+      "difficulty": 1,
+      "note": 452,
+      "previous": -1,
+      "file": "Documents/dl/spearofjustice_1",
+      "sha256": "d40594278aced6c1855f25440067a8dd906a271a3aeddac9672ae604c3c1d111"
+    },
+    {
+      "songId": "spearofjustice",
+      "difficulty": 2,
+      "note": 607,
+      "previous": -1,
+      "file": "Documents/dl/spearofjustice_2",
+      "sha256": "bd985e35110d0bf5e737c9e7e39a1bbcd45e71aabab886b885338af1646f71d3"
+    },
+    {
+      "songId": "spearofjustice",
+      "difficulty": 4,
+      "note": 761,
+      "previous": -1,
+      "file": "Documents/dl/spearofjustice_4",
+      "sha256": "7314396f0330c33cd83c412f0e1c3034922fb72306f264466b05ef6248544df2"
+    },
+    {
+      "songId": "lavie",
+      "difficulty": 0,
+      "note": 598,
+      "previous": -1,
+      "file": "Documents/dl/lavie_0",
+      "sha256": "4baa400fc0ecaede81cae6914706863f0185e2d9cf6354e3e588967c94024be9"
+    },
+    {
+      "songId": "lavie",
+      "difficulty": 1,
+      "note": 698,
+      "previous": -1,
+      "file": "Documents/dl/lavie_1",
+      "sha256": "469363d20dc3ff0357b5f3e12e742d081e4253622dbe416eafcb6b2d614c20ba"
+    },
+    {
+      "songId": "lavie",
+      "difficulty": 2,
+      "note": 903,
+      "previous": -1,
+      "file": "Documents/dl/lavie_2",
+      "sha256": "5a8f0d1a1879ec90db1da4f0fc7f1bbb2dbefcb9609ffa146fc0cc76a3753a14"
+    },
+    {
+      "songId": "lavie",
+      "difficulty": 4,
+      "note": 1125,
+      "previous": -1,
+      "file": "Documents/dl/lavie_4",
+      "sha256": "ed9113acfa71ad7a6d3ae32b1f4a93c682dd185d43134b0d53eac1acadeea6be"
+    },
+    {
+      "songId": "ember",
+      "difficulty": 0,
+      "note": 740,
+      "previous": -1,
+      "file": "Documents/dl/ember_0",
+      "sha256": "4c446ea1ba9873f7644115b7c34c25b4f4bc000cd19a0ba6447347bad0366c98"
+    },
+    {
+      "songId": "ember",
+      "difficulty": 1,
+      "note": 824,
+      "previous": -1,
+      "file": "Documents/dl/ember_1",
+      "sha256": "0dc0fc486a5ff7ea81d4b91b3be4a32025227295834a1ea325332b0fcd2024b0"
+    },
+    {
+      "songId": "ember",
+      "difficulty": 2,
+      "note": 1070,
+      "previous": -1,
+      "file": "Documents/dl/ember_2",
+      "sha256": "292d92769c3024c5e50810387fe94995241d76b976fc5386067d31aabd033042"
+    },
+    {
+      "songId": "spiderdance",
+      "difficulty": 0,
+      "note": 525,
+      "previous": -1,
+      "file": "Documents/dl/spiderdance_0",
+      "sha256": "61b31c7a6f8f1c3c266196d3cb2697071f9ddaf17fdebe3d87762082efcd6760"
+    },
+    {
+      "songId": "spiderdance",
+      "difficulty": 1,
+      "note": 526,
+      "previous": -1,
+      "file": "Documents/dl/spiderdance_1",
+      "sha256": "f7a4a0b3ee49cf344267f55f35e0549c7ecf84eb6455eaa26e51a2901dd58386"
+    },
+    {
+      "songId": "spiderdance",
+      "difficulty": 2,
+      "note": 553,
+      "previous": -1,
+      "file": "Documents/dl/spiderdance_2",
+      "sha256": "fb02eaf151da1394af032b7dc635afb735b7701fac9beb73e4c6c2943730f8ae"
+    },
+    {
+      "songId": "spiderdance",
+      "difficulty": 4,
+      "note": 666,
+      "previous": -1,
+      "file": "Documents/dl/spiderdance_4",
+      "sha256": "0b0dae7b7e86523cf7284b4b9caa3abe9d36ca0a9426bebf3799fca2ff111fa4"
+    },
+    {
+      "songId": "aishite",
+      "difficulty": 0,
+      "note": 676,
+      "previous": -1,
+      "file": "Documents/dl/aishite_0",
+      "sha256": "e6a066cbf1ae7a1477a1d705ede79da300bc7c4c4a825a2f4578933481afcbcb"
+    },
+    {
+      "songId": "aishite",
+      "difficulty": 1,
+      "note": 799,
+      "previous": -1,
+      "file": "Documents/dl/aishite_1",
+      "sha256": "ebe71d4d718756d19cd5a3359a1e71dc64962f4848383b88cbcb5f7121d75d1e"
+    },
+    {
+      "songId": "aishite",
+      "difficulty": 2,
+      "note": 837,
+      "previous": -1,
+      "file": "Documents/dl/aishite_2",
+      "sha256": "ffa4c506253a3af003c3806d3911b95bd75d6e0c9928850cbb69b52b28d3bc9a"
+    },
+    {
+      "songId": "aishite",
+      "difficulty": 4,
+      "note": 1039,
+      "previous": -1,
+      "file": "Documents/dl/aishite_4",
+      "sha256": "75b5e7f9e20509398f985c7932d1b4e7a310eab42a122c5f2e376e31c8a8eec6"
+    },
+    {
+      "songId": "riotsystem",
+      "difficulty": 0,
+      "note": 755,
+      "previous": -1,
+      "file": "Documents/dl/riotsystem_0",
+      "sha256": "22ccc2432304eb3c7e2564980ed5b7e84087e281e063ab774f6539d62ef33266"
+    },
+    {
+      "songId": "riotsystem",
+      "difficulty": 1,
+      "note": 782,
+      "previous": -1,
+      "file": "Documents/dl/riotsystem_1",
+      "sha256": "2510837d96290d9d9208e7805d500e6450abd4e4d523e45bba646818a401fd9e"
+    },
+    {
+      "songId": "riotsystem",
+      "difficulty": 2,
+      "note": 998,
+      "previous": -1,
+      "file": "Documents/dl/riotsystem_2",
+      "sha256": "6adecdffbf03b5814d8b25cc5f52733e96eb83a8167db558f883cd7fe7681cb3"
+    },
+    {
+      "songId": "riotsystem",
+      "difficulty": 4,
+      "note": 1214,
+      "previous": -1,
+      "file": "Documents/dl/riotsystem_4",
+      "sha256": "dcc166f8e674f5a5ba4eae36e422f813cc71bafec73c1d27d331ec62b61503e5"
+    },
+    {
+      "songId": "kamippoi",
+      "difficulty": 0,
+      "note": 522,
+      "previous": -1,
+      "file": "Documents/dl/kamippoi_0",
+      "sha256": "9753c995ca8de54dd86b2f91c90d6302d81d322ef2f08d90a3660bdd504cae7f"
+    },
+    {
+      "songId": "kamippoi",
+      "difficulty": 1,
+      "note": 645,
+      "previous": -1,
+      "file": "Documents/dl/kamippoi_1",
+      "sha256": "1695fd37f0ec9469f3ad5b407b5ce4a548f34f0ba44e651d2e6df1a6626f70c0"
+    },
+    {
+      "songId": "kamippoi",
+      "difficulty": 2,
+      "note": 945,
+      "previous": -1,
+      "file": "Documents/dl/kamippoi_2",
+      "sha256": "90b055d58c313668223bbe3f681054b20bb243ec62ec26d0ffd3c42d59ec7ff9"
+    },
+    {
+      "songId": "kamippoi",
+      "difficulty": 4,
+      "note": 1116,
+      "previous": -1,
+      "file": "Documents/dl/kamippoi_4",
+      "sha256": "b65c717b902b806e0ea2aa3b38db1eb0c00c91008aa9d02d54dffa3b260b757e"
+    },
+    {
+      "songId": "mirrorrmx",
+      "difficulty": 0,
+      "note": 654,
+      "previous": -1,
+      "file": "Documents/dl/mirrorrmx_0",
+      "sha256": "fafdd0ffbb21fa41add10f664b811943a4b21d4fe599079392d5c60561f6d38a"
+    },
+    {
+      "songId": "mirrorrmx",
+      "difficulty": 1,
+      "note": 742,
+      "previous": -1,
+      "file": "Documents/dl/mirrorrmx_1",
+      "sha256": "8e9eb3fae608c9d593a422894d5c12cc9edb8580e1fd74a3ab4c23e3571148d9"
+    },
+    {
+      "songId": "mirrorrmx",
+      "difficulty": 2,
+      "note": 972,
+      "previous": -1,
+      "file": "Documents/dl/mirrorrmx_2",
+      "sha256": "87665b61f39828aa4f6dbc23137acc602bf4841eaf298900332e721c306d3a5c"
+    },
+    {
+      "songId": "flexidefine",
+      "difficulty": 0,
+      "note": 644,
+      "previous": -1,
+      "file": "Documents/dl/flexidefine_0",
+      "sha256": "864f31e87c19e64eb485462d959daa2129235fbc677c4e336321355c23f9e133"
+    },
+    {
+      "songId": "flexidefine",
+      "difficulty": 1,
+      "note": 842,
+      "previous": -1,
+      "file": "Documents/dl/flexidefine_1",
+      "sha256": "ffc26d37db8030ff420a30912b79a0702f7a353ca9b4d0cf7641ce83e9a439a4"
+    },
+    {
+      "songId": "flexidefine",
+      "difficulty": 2,
+      "note": 1055,
+      "previous": -1,
+      "file": "Documents/dl/flexidefine_2",
+      "sha256": "2103e018cac1f16700d0557faefa84144ecfa277e6ba2468f536454cec652fc7"
+    },
+    {
+      "songId": "cosmogyral",
+      "difficulty": 0,
+      "note": 547,
+      "previous": -1,
+      "file": "Documents/dl/cosmogyral_0",
+      "sha256": "e8c3686f502faeeb1adc96dd160a827c7e4d4a7d6aa70e60a1892732d9482741"
+    },
+    {
+      "songId": "cosmogyral",
+      "difficulty": 1,
+      "note": 687,
+      "previous": -1,
+      "file": "Documents/dl/cosmogyral_1",
+      "sha256": "19debdfb34464e56e6b4ed8fb8443f746b6d34dd02600b778e8df9ebfea45a4f"
+    },
+    {
+      "songId": "cosmogyral",
+      "difficulty": 2,
+      "note": 916,
+      "previous": -1,
+      "file": "Documents/dl/cosmogyral_2",
+      "sha256": "a86c5431b63c41a529677b77f9d5ebb8d2ca16e14b501559379a1d3206ea848c"
+    },
+    {
+      "songId": "cosmogyral",
+      "difficulty": 4,
+      "note": 1049,
+      "previous": -1,
+      "file": "Documents/dl/cosmogyral_4",
+      "sha256": "59b6493f37c002d76150612cf5b27dba631dbf073ff684fb9377e62e2cec23ca"
+    }
+  ],
+  "remaining": [
+    {
+      "songId": "sacrosanct",
+      "difficulty": 0
+    },
+    {
+      "songId": "sacrosanct",
+      "difficulty": 1
+    },
+    {
+      "songId": "sacrosanct",
+      "difficulty": 2
+    },
+    {
+      "songId": "csqn",
+      "difficulty": 0
+    },
+    {
+      "songId": "csqn",
+      "difficulty": 1
+    },
+    {
+      "songId": "csqn",
+      "difficulty": 2
+    },
+    {
+      "songId": "csqn",
+      "difficulty": 4
+    },
+    {
+      "songId": "sucromania",
+      "difficulty": 0
+    },
+    {
+      "songId": "sucromania",
+      "difficulty": 1
+    },
+    {
+      "songId": "sucromania",
+      "difficulty": 2
+    },
+    {
+      "songId": "sucromania",
+      "difficulty": 4
+    },
+    {
+      "songId": "altersist",
+      "difficulty": 0
+    },
+    {
+      "songId": "altersist",
+      "difficulty": 1
+    },
+    {
+      "songId": "altersist",
+      "difficulty": 2
+    },
+    {
+      "songId": "altersist",
+      "difficulty": 4
+    }
+  ],
+  "discrepancies": [
+    {
+      "songId": "primevaltexture",
+      "difficulty": 0,
+      "note": 387,
+      "previous": 346,
+      "file": "Documents/dl/primevaltexture_0",
+      "sha256": "759d98bfcdf821b7922d49947aa6840f135f7cba1220ef3933c1c2a36f3cc110"
+    }
+  ]
+}

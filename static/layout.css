@@ -1,0 +1,237 @@
+html {
+    zoom: 1;
+}
+
+body {
+    background: #fafafa;
+}
+
+.ui.main.container {
+    width: calc(100% - 48px) !important;
+    max-width: 1800px !important;
+    margin: 24px auto !important;
+}
+
+#menu {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.ui.main.container > .ui.tab {
+    width: 100%;
+    max-width: none !important;
+}
+
+.ui.main.container p {
+    display: block;
+    line-height: 1.7;
+}
+
+.ui.main.container > .ui.tab > .ui.grid {
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.ui.main.container .column > .wide.column {
+    width: 100% !important;
+    display: block !important;
+}
+
+#songfilter > .wide.column {
+    width: 100% !important;
+    display: block !important;
+}
+
+.home-layout {
+    display: grid;
+    grid-template-columns:minmax(0, 1fr) minmax(290px, 340px);
+    gap: 24px;
+    align-items: start;
+}
+
+.home-results, .home-sidebar {
+    min-width: 0;
+}
+
+.home-section {
+    margin-bottom: 24px;
+}
+
+.home-section > .header, .home-section > .segment {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.home-sidebar {
+    position: sticky;
+    top: 24px;
+}
+
+.potential-switch.ui.menu {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-radius: 12px;
+    background: #f0f1f3;
+    box-shadow: 0 5px 16px #00000012;
+    margin: 0 0 12px;
+}
+
+.potential-switch.ui.menu .item {
+    flex: 1;
+    justify-content: center;
+    border: 0;
+    background: transparent;
+    font: inherit;
+    cursor: pointer;
+    border-radius: 8px !important;
+}
+
+.potential-switch.ui.menu .item:before {
+    display: none;
+}
+
+.potential-switch.ui.menu .active.item {
+    background: white;
+    color: #2185d0;
+    box-shadow: 0 2px 7px #0002;
+    font-weight: 700;
+}
+
+.potential-panel.ui.segment {
+    margin: 0;
+    padding: 24px 18px;
+}
+
+.potential-panel .ui.statistic {
+    width: 100%;
+    margin: 12px 0 18px;
+}
+
+.potential-panel .ui.statistic > .value {
+    font-size: 2.55rem !important;
+    font-variant-numeric: tabular-nums;
+}
+
+.potential-panel .label {
+    line-height: 1.6;
+}
+
+#calculation-status {
+    box-shadow: none;
+    border-top: 1px solid #eee;
+    padding: 14px 0 0;
+    font-size: 12px;
+    background: transparent;
+}
+
+.score-grid {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(min(var(--score-card-min, 580px), 100%), 1fr));
+    gap: 16px;
+}
+
+.score-grid > .ui.card, .ui.card.score-card {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+}
+
+.score-card .header.card-title {
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: clip;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.score-card .meta {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.score-card .card-score {
+    font-family: Exo, sans-serif;
+    font-size: 24px;
+    font-variant-numeric: tabular-nums;
+}
+
+.score-card .description {
+    line-height: 1.8;
+}
+
+#recentText {
+    display: none;
+}
+
+.archive-actions {
+    display: flex;
+    align-items: end;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.archive-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 600;
+}
+
+.archive-input input {
+    max-width: 100%;
+    font-weight: 400;
+}
+
+#archive-status {
+    margin-top: 16px;
+    white-space: pre-wrap;
+}
+
+#archive-status:empty {
+    display: none;
+}
+
+#save > .segment {
+    width: 100%;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 900px) {
+    .home-layout {
+        grid-template-columns:1fr;
+    }
+
+    .home-sidebar {
+        position: static;
+        grid-row: 1;
+    }
+}
+
+@media (max-width: 600px) {
+    .ui.main.container {
+        width: calc(100% - 24px) !important;
+        margin: 12px auto !important;
+    }
+
+    #menu .item {
+        padding: 12px;
+    }
+
+    .archive-actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .ui.main.container .ui.statistic > .value {
+        font-size: 2.4rem !important;
+    }
+}

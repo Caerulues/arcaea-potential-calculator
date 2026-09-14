@@ -1,0 +1,124 @@
+/* Semantic UI history section embedded in the main page. */
+#potential-history p {
+    display: block;
+}
+
+#potential-history .ui.form.filters {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 1em 0 2em;
+}
+
+#potential-history .ui.form.filters .field {
+    margin: 0;
+}
+
+#potential-history .ui.form.filters input, #potential-history .ui.form.filters select {
+    margin-top: .6em;
+}
+
+#potential-history .ui.cards.stats {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#potential-history .stats span, #potential-history .stats small {
+    display: block;
+    color: rgba(0, 0, 0, .6);
+}
+
+#potential-history .stats strong {
+    display: block;
+    font-size: 2.4em;
+    line-height: 1.3;
+    margin: .4em 0;
+    font-variant-numeric: tabular-nums;
+}
+
+#potential-history .positive {
+    color: #218838;
+}
+
+#potential-history .negative {
+    color: #db2828;
+}
+
+#potential-history .chart-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+#potential-history .chart-heading .header {
+    margin: 0;
+}
+
+#potential-history .chart-heading span, #chart-caption, #table-count {
+    color: rgba(0, 0, 0, .6);
+    font-size: .9em;
+}
+
+#chart svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#chart svg text {
+    font-family: inherit;
+    fill: #767676;
+    font-size: 12px;
+}
+
+#chart svg circle {
+    cursor: crosshair;
+    fill: #2185d0;
+    stroke: white;
+    stroke-width: 1;
+}
+
+#chart svg circle:hover, #chart svg circle:focus {
+    stroke-width: 3;
+    fill: #1678c2;
+}
+
+#potential-history .table-scroll {
+    overflow: auto;
+}
+
+#potential-history .ui.table td, #potential-history .ui.table th {
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    text-align: right;
+}
+
+#potential-history .ui.table td:first-child, #potential-history .ui.table th:first-child {
+    text-align: left;
+}
+
+#potential-history .empty {
+    text-align: center;
+}
+
+#potential-history [hidden] {
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    #potential-history .ui.four.cards.stats > .card {
+        width: calc(50% - 1.5em);
+    }
+
+    #potential-history .stats strong {
+        font-size: 2em;
+    }
+
+    #potential-history .chart-heading span {
+        display: none;
+    }
+}
