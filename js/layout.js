@@ -15,10 +15,6 @@ function switchPotential(version) {
         queued = false;
         const canvas = document.createElement('canvas'), context = canvas.getContext('2d');
         context.font = '700 16px Lato, Arial, sans-serif';
-        const titles = typeof slst === 'undefined' ? [] : slst.songs.flatMap(s => [...Object.values(s.title_localized || {}), ...(s.difficulties || []).flatMap(d => Object.values(d.title_localized || {}))]);
-        document.querySelectorAll('.card-title').forEach(el => titles.push(el.textContent));
-        const width = Math.ceil(Math.max(540, ...titles.map(t => context.measureText(t).width + 44)));
-        document.documentElement.style.setProperty('--score-card-min', width + 'px');
         document.querySelectorAll('.card-title').forEach(el => {
             const natural = context.measureText(el.textContent).width;
             const available = el.getBoundingClientRect().width;
