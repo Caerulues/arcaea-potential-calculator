@@ -1,8 +1,14 @@
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
-const {potentialSummary, legacyRecordPtt} = require('../js/records.js');
+const {scorePotential, potentialSummary, legacyRecordPtt} = require('../js/records.js');
 const csv = require('../js/csv.js');
 const close = (a, b) => assert.ok(Math.abs(a - b) < 1e-10, `${a} != ${b}`);
+close(scorePotential(10, 10000000, 1), 12.2);
+close(scorePotential(10, 10000000, 0), 12);
+close(scorePotential(10, 9900000, 2), 11.7);
+close(scorePotential(10, 9800000, 4), 11.2);
+close(scorePotential(10, 9700000, 5), 10.866666666666667);
+close(scorePotential(8, 6800000, 1), 0);
 for (const clearType of [1, 2, 3, 4, 5]) close(legacyRecordPtt({potential: 12, clearType}), 11.8);
 close(legacyRecordPtt({potential: 12, clearType: 0}), 12);
 close(legacyRecordPtt({potential: 12}), 11.8);

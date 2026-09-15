@@ -18,16 +18,22 @@ function calcB() {
     var calcConst = parseFloat(document.getElementById('calcConst').value);
     var calcScoreB = parseInt(document.getElementById('calcScoreB').value);
     var calcResult = parseFloat(document.getElementById('calcResult').value);
+    var clearType = Number(document.getElementById('calcClearType').value);
+    var reward = clearReward(clearType);
     if (!isNaN(calcConst) && !isNaN(calcScoreB)) {
-        calcResult = ((calcScoreB >= 9800000) ? ((calcScoreB - 9800000) / 200000 + calcConst + 1) : ((calcScoreB - 9800000) / 300000 + calcConst + 1));
+        calcResult = scorePotential(calcConst, calcScoreB, clearType);
         calcResult = Math.round(calcResult * 100000) / 100000;
         document.getElementById('calcResult').value = calcResult.toString();
     } else if (!isNaN(calcConst) && !isNaN(calcResult)) {
-        calcScoreB = ((calcResult >= calcConst + 1) ? ((calcResult - calcConst - 1) * 200000 + 9800000) : ((calcResult - calcConst - 1) * 300000 + 9800000));
+        if (calcResult >= calcConst + 2 + reward) calcScoreB = 10000000;
+        else if (calcResult >= calcConst + 1 + reward) calcScoreB = (calcResult - calcConst - 1 - reward) * 200000 + 9800000;
+        else calcScoreB = (calcResult - calcConst - reward) * 300000 + 9500000;
         calcScoreB = Math.round(calcScoreB);
         document.getElementById('calcScoreB').value = calcScoreB.toString();
     } else if (!isNaN(calcResult) && !isNaN(calcScoreB)) {
-        calcConst = ((calcScoreB >= 9800000) ? (calcResult - (calcScoreB - 9800000) / 200000 - 1) : (calcResult - (calcScoreB - 9800000) / 300000 - 1));
+        if (calcScoreB >= 10000000) calcConst = calcResult - 2 - reward;
+        else if (calcScoreB >= 9800000) calcConst = calcResult - 1 - (calcScoreB - 9800000) / 200000 - reward;
+        else calcConst = calcResult - (calcScoreB - 9500000) / 300000 - reward;
         calcConst = Math.round(calcConst * 10) / 10;
         document.getElementById('calcConst').value = calcConst.toString();
     }

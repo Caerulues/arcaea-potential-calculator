@@ -472,21 +472,29 @@
                 <h4 class="ui top attached block header">计算器 B</h4>
                 <div class="ui bottom attached segment">
                     <form class="ui form">
-                        <div class="three fields">
+                        <div class="four fields">
                             <div class="field"><label>定数</label><input id="calcConst" placeholder="12.0" type="text"/>
                             </div>
                             <div class="field"><label>分数</label><input id="calcScoreB" placeholder="9999900"
                                                                          type="text"/></div>
                             <br/>
-                            <div class="field"><label>单曲 ptt</label><input id="calcResult" placeholder="13.9995"
+                            <div class="field"><label>单曲 ptt</label><input id="calcResult" placeholder="14.1995"
                                                                              type="text"/></div>
+                            <div class="field"><label for="calcClearType">通关类型</label><select id="calcClearType">
+                                <option value="0">Track Lost</option>
+                                <option selected="" value="1">Track Complete</option>
+                                <option value="4">Easy Clear</option>
+                                <option value="5">Hard Clear</option>
+                                <option value="2">Full Recall</option>
+                                <option value="3">Pure Memory</option>
+                            </select></div>
                             <br/>
                         </div>
                         <div class="ui blue submit button" onclick="calcB()">计算</div>
                         <br/><br/>
                         <p>
                             计算器 B 说明：<br/>
-                            填入以上三者中的两者时将尝试计算第三者。<br/>
+                            填入定数、分数、单曲 ptt 三者中的两者时将尝试计算第三者；计算会使用所选通关类型的奖励。<br/>
                             计算定数时会四舍五入到最近的 0.1 的倍数。<br/>
                             填入正常范围以外的数值可能会导致出错。
                         </p>

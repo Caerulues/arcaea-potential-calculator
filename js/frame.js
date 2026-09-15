@@ -34,7 +34,7 @@ function gethtml(songid, diff, mxp, mis, far, rankk, isScoreOnly, record) {
         diff,
         score: Math.floor(1e7 * (note - mis - far / 2) / note + mxp),
         constant: sdb[songid][diff].constant / 10,
-        potential: getptt(songid, diff, mxp, mis, far),
+        potential: getptt(songid, diff, mxp, mis, far, record?.clearType ?? 1),
         mxp,
         pure,
         far: shownFar,
@@ -58,7 +58,7 @@ function getText(songid, diff, mxp, mis, far, isScoreOnly, record) {
     var score = Math.floor(1e7 * (pur + far / 2) / note + mxp);
     var a = Math.floor(score / 1e6), b = Math.floor(score / 1e3) % 1000, c = score % 1000;
     a = longer(2, a), b = longer(3, b), c = longer(3, c);
-    var ptt = Math.max(0, constant + Math.min((score >= 9800000 ? (score - 9600000) / 200000 : (score - 9500000) / 300000), 2));
+    var ptt = scorePotential(constant, score, record?.clearType ?? 1);
     ptt = Math.floor(ptt * 100000) / 100000;
     return `${title} [${diffText} ${level}] ` + (isScoreOnly ? "" : `${pur}(+${mxp})-${far}-${mis} `) + `${a}'${b}'${c} (${constant} -> ${ptt})`;
 }

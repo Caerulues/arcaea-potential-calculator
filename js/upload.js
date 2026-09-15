@@ -1,12 +1,11 @@
 var backupload = false;
 
-function getptt(songid, diff, mxp, mis, far) {
+function getptt(songid, diff, mxp, mis, far, clearType) {
     var constant = sdb[songid][diff].constant / 10;
     var note = sdb[songid][diff].note;
     var pur = note - mis - far;
     var score = Math.floor(1e7 * (pur + far / 2) / note + mxp);
-    var ptt = Math.max(0, constant + Math.min((score >= 9800000 ? (score - 9600000) / 200000 : (score - 9500000) / 300000), 2));
-    return ptt;
+    return scorePotential(constant, score, clearType);
 }
 
 function uploadplay() {
@@ -66,14 +65,14 @@ function uploadplay() {
             return;
         }
     }
-    var newrec = {'songid': songid, 'diff': diff, 'mis': mis, 'far': far, 'mxp': mxp, 'isScoreOnly': isScoreOnly};
     const clearValue = document.getElementById('manual-clear-type').value;
-    newrec.clearType = clearValue === '' ? 1 : Number(clearValue);
+    const clearType = clearValue === '' ? 1 : Number(clearValue);
+    var newrec = {'songid': songid, 'diff': diff, 'mis': mis, 'far': far, 'mxp': mxp, 'isScoreOnly': isScoreOnly, 'clearType': clearType};
     recentplay = newrec;
     var c = 0;
     for (i in playlist) if (playlist[i].songid == songid && playlist[i].diff == diff) {
         var ptt1 = recordPtt(playlist[i]);
-        var ptt2 = getptt(songid, diff, mxp, mis, far);
+        var ptt2 = getptt(songid, diff, mxp, mis, far, clearType);
         if (ptt2 >= ptt1) playlist[i] = newrec;
         c = 1;
     }

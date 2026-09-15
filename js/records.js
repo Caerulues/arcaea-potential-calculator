@@ -14,8 +14,19 @@ function recordScore(r) {
     return Math.floor(1e7 * (note - r.mis - r.far / 2) / note + r.mxp);
 }
 
+function clearReward(clearType) {
+    return (clearType ?? 1) === 0 ? 0 : 0.2;
+}
+
+function scorePotential(constant, score, clearType) {
+    const reward = clearReward(clearType);
+    if (score >= 10000000) return constant + 2 + reward;
+    if (score >= 9800000) return constant + 1 + (score - 9800000) / 200000 + reward;
+    return Math.max(0, constant + (score - 9500000) / 300000 + reward);
+}
+
 function recordPtt(r) {
-    return Number.isFinite(r.potential) ? r.potential : getptt(r.songid, r.diff, r.mxp, r.mis, r.far);
+    return Number.isFinite(r.potential) ? r.potential : getptt(r.songid, r.diff, r.mxp, r.mis, r.far, r.clearType);
 }
 
 function importedTitle(r) {
@@ -61,4 +72,4 @@ function potentialSummary(records) {
     };
 }
 
-if (typeof module !== 'undefined') module.exports = {recordPtt, legacyRecordPtt, potentialSummary};
+if (typeof module !== 'undefined') module.exports = {clearReward, scorePotential, recordPtt, legacyRecordPtt, potentialSummary};
